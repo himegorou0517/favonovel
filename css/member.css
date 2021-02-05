@@ -1,0 +1,195 @@
+body {
+  background-image: url(../image/bg3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  color: #330000;
+  font-family:'戸越ゴシック';
+}
+
+html {
+  height: 100%;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  height: 50px;
+}
+
+header {
+  margin: 30px auto;
+}
+
+#wrapper {
+  height: 600px;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+p.index {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+}
+
+footer {
+  border-top: dashed 2px #330000;
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  text-align: center;
+  margin: 7px auto;
+}
+
+
+form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  margin: 10px auto;
+  font-size: 20px;
+  width: 1300px;
+}
+
+input {
+  width: 200px;
+}
+
+tr {
+  height: 45px;
+}
+
+th {
+  width: 140px;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+}
+
+span {
+  color: #CC3300;
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+  width: 200px;
+}
+
+.submit_btn {
+  width: 70px;
+}
+
+.mem a {
+  text-decoration: none;
+  color: #330000;
+  padding: 20px 0;
+}
+
+/* confirm_member.php */
+
+.confirm {
+  /* width: 1300px; */
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+h2 {
+  width: 700px;
+  margin: 20px auto;
+  font-size: 21px;
+}
+
+.confirm p {
+  margin: 0;
+  padding: 25px;
+}
+
+p.confirm {
+  font-size: 18px;
+}
+
+.submit_btn{
+  text-align: center;
+}
+
+p.first {
+  text-align: center;
+  font-size: 19px;
+  margin: 40px auto;
+  margin-bottom: 30px;
+}
+
+.first a {
+  text-decoration: none;
+  color: #330000;
+  padding: 20px 0;
+}
+
+/* complete_mem.php */
+
+p.mem {
+  text-align: center;
+}
+
+p.mem:nth-child(1) {
+  font-size: 21px;
+  padding-top: 150px;
+}
+
+p.mem:nth-child(2) {
+  margin-top: 200px;
+}
+
+p.mem:nth-child(3) {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+  }
+  #wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+  }
+  tbody {
+    width: 100%;
+  }
+  th {
+    display: block;
+    margin: 0 auto;
+  }
+  td {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+  td input {
+    width: 250px;
+  }
+
+  .submit_btn {
+    display: block;
+    margin: 120px auto;
+
+  }
+}

@@ -1,0 +1,78 @@
+
+ul {
+  list-style: none;
+}
+
+.detail li {
+  margin-bottom: 10px;
+}
+
+.detail li:nth-child(1) {
+  font-size: 27px;
+}
+
+.detail li:nth-child(2){
+  font-size: 22px;
+}
+
+.detail li:nth-child(3){
+  font-size: 19px;
+}
+
+ul.detail img {
+    width: 180px;
+    height: 230px;
+}
+
+p.best {
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.submit_btn {
+  width: 150px;
+  text-align: center;
+}
+
+.left {
+  width: 370px;
+}
+
+.name {
+  width: 150px;
+  font-size: 17px;
+}
+
+.user {
+  width: 900px;
+  float: right;
+  display: flex;
+  position: relative;
+  bottom: 350px;
+  right: 70px;
+}
+
+table {
+ width: 850px;
+}
+
+th {
+  width: calc(100%/5);
+  font-size: 18px;
+}
+
+td {
+  margin: 0 8px;
+  font-size: 17px;
+}
+
+td a  {
+  text-decoration: none;
+  color: #330000;
+}
+
+.five img {
+  width: 160px;
+  height: 210px;
+}

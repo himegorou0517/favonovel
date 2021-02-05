@@ -1,0 +1,282 @@
+
+/* mypage.php */
+
+.rank {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+table {
+  table-layout: fixed;
+  width: 1200px;
+  font-size: 20px;
+}
+
+tr {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+td img {
+  width: 180px;
+  height: 230px;
+}
+
+td {
+  text-align: left;
+  width: 180px;
+  height: 30px;
+}
+
+td a {
+  text-decoration: none;
+}
+
+td.moji {
+  font-size: 23px;
+}
+
+img.css:hover {
+  opacity:0.85;
+}
+
+tr:nth-of-type(1) {
+  font-size: 24px;
+}
+
+.white{
+  background-color: white;
+  border: solid 2px #9e8b8e;
+  padding: 15px;
+  height: 300px;
+}
+
+.favorite_b {
+  width: 51px;
+  height: 41px;
+}
+
+.heart img {
+  width: 35px;
+  height: 30px;
+}
+
+.heart .on img {
+  width: 40px;
+  height: 40px;
+}
+
+.heart .on {
+  display: none;
+}
+
+button.book_btn.on {
+  width: 100px;
+}
+
+/* search.php */
+.top {
+  display:flex;
+  margin: 0 auto;
+  width: 600px;
+  margin-bottom: 80px;
+}
+
+.left img {
+  width: 180px;
+  height: 250px;
+}
+
+.more {
+  margin-left: 50px;
+}
+
+.more p {
+  font-size: 23px;
+  margin: 10px 0;
+}
+
+.big {
+  display:flex;
+}
+
+td.en a{
+  color: #330000;
+  background: linear-gradient(transparent 70%, #c1e4e9 70%);
+}
+
+td.en {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
+
+.bottom table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.bottom tr {
+  border-top: dashed 2px #9e8b8e;
+}
+
+.bottom td{
+  padding: 0 15px;
+  font-size: 17px;
+}
+
+
+tr:nth-of-type(1) {
+  border: none;
+  padding-top: 25px;
+}
+
+.bottom td {
+  width: 100%;
+}
+
+
+/* hondana.php */
+.novel {
+  display: flex;
+  padding: 0 20px;
+}
+
+.pic {
+  width: calc(100%/5);
+  padding:0 20px;
+}
+
+.pic p {
+  text-align: center;
+}
+
+.pic img {
+  width: 160px;
+  height: 210px;
+}
+
+.submit_btn{
+  text-align: center;
+}
+
+/* edit_hondana.php */
+textarea {
+  margin: 0 auto;
+  resize: none;
+  height: 100px;
+}
+
+/* favorite.php */
+
+.pic {
+  width: 200px;
+}
+
+p.title{
+  text-align: center;
+  font-size: 20px;
+}
+
+p.author{
+  text-align: center;
+  font-size: 16px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 0;
+}
+.novel {
+  width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.pic {
+  height: 320px;
+  box-sizing:border-box;
+  float: left;
+  padding-bottom: 30px;
+}
+
+/* logout.php */
+
+.finish {
+  margin-top: 100px;
+}
+
+.fin {
+  margin-top: 100px;
+}
+
+.finish p {
+  text-align: center;
+}
+
+.fin p {
+  text-align: center;
+}
+
+.finish p a {
+  text-decoration: none;
+  color: #9e8b8e;
+}
+
+.fin p a {
+  text-decoration: none;
+  color: #9e8b8e;
+}
+
+/* rank.php */
+.index span {
+  font-size: 28px;
+  background: linear-gradient(transparent 70%, #c1e4e9 70%);
+}
+p.index {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .front {
+    width: 100%;
+  }
+  p.index {
+    width: 100%;
+    font-size: 19px;
+  }
+  .rank {
+    width: 100%;
+  }
+  table {
+    width: 100%;
+    font-size: 16px;
+  }
+  tbody {
+    width: 100%;
+  }
+  td {
+    width: 100%;
+    /* display: block; */
+  }
+  td img {
+    width: 130px;
+    height: 180px;
+  }
+  .more p {
+  font-size: 19px;
+ }
+ .left img {
+   width: 150px;
+   height: 210px;
+ }
+ .novel {
+   width: 100%;
+   padding: 0;
+ }
+}

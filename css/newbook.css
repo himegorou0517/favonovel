@@ -1,0 +1,273 @@
+
+/* book_list.php */
+p.mgt {
+  font-size: 28px;
+  padding-left: 100px;
+  margin: 20px 0;
+}
+
+.front {
+  display: flex;
+}
+
+p.index {
+  font-size: 25px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.search {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+img.new {
+  width: 150px;
+  height: 80px;
+}
+
+.booklist {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.list {
+  /* width: 150px; */
+  width: calc(100%/5);
+  height: 320px;
+  box-sizing:border-box;
+  margin:0 40px;
+  float: left;
+  padding-bottom: 30px;
+}
+
+.list a {
+  text-decoration: none;
+  color: #330000;
+}
+
+.list a:hover {
+  opacity:0.7;
+}
+
+.list p {
+  padding-left: 7px;
+  margin: 6px auto;
+}
+
+.list p:nth-of-type(1){
+  font-size: 20px;
+}
+
+a.edit {
+  color: #4d5aaf;
+}
+a.edit:hover {
+  opacity:1;
+}
+
+.bookimg {
+  width: 140px;
+  height: 180px;
+}
+
+.register img{
+  z-index: 1000px;
+  position: fixed;
+  right: 100px;
+  bottom: 40px;
+  width: 180px;
+  height: 100px;
+}
+
+/* register_book.php */
+table {
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 20px;
+}
+
+span {
+  color: #CC3300;
+}
+
+tr {
+  height: 60px;
+}
+
+th {
+  width: 200px;
+}
+
+p#file {
+  font-size: 15px;
+}
+
+.submit_btn {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+p.re {
+  text-align: center;
+}
+
+.re a {
+  text-decoration: none;
+  color: #330000;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* confirm_book.php */
+
+.confirm {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 20px;
+}
+
+h2 {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 21px;
+}
+
+.confirm p {
+  margin: 0;
+  padding: 25px;
+}
+
+p.confirm {
+  font-size: 18px;
+}
+
+.confirm img {
+  width: 170px;
+  height: 220px;
+}
+
+p.first {
+  text-align: center;
+  font-size: 19px;
+  margin: 0 auto;
+}
+
+/* detail_book.php */
+.detail {
+  display:flex;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.left img {
+  width: 180px;
+  height: 250px;
+}
+
+.more {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.more p {
+  font-size: 21px;
+  margin: 30px 0;
+}
+
+a {
+  color: #330000;
+  text-decoration: none;
+}
+
+.left {
+  width: 200px;
+}
+
+
+/* complete_book.php */
+.complete {
+  margin: 70px 0;
+  text-align: center;
+  font-size: 21px;
+}
+
+
+/* logput.php */
+
+.mem:nth-of-type(1) {
+  font-size: 28px;
+  padding-left: 100px;
+}
+
+.mem:nth-of-type(2){
+  font-size: 18px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.mem:nth-of-type(3) {
+  margin: 80px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+  }
+  #wrapper {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  p.index {
+    padding: 20px 0;
+  }
+  .booklist {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .list {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .list p {
+    width: 100%;
+    padding: 0;
+  }
+  .register img{
+    z-index: 1000px;
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    width: 180px;
+    height: 100px;
+  }
+  h2 {
+    padding: 20px 0;
+  }
+  .confirm {
+    width: 100%;
+    padding: 0;
+  }
+  .confirm p {
+    width: 100%;
+    padding: 10px 0;
+  }
+  p {
+    width: 100%;
+  }
+
+  .mem:nth-of-type(1) {
+    text-align: center;
+    font-size: 28px;
+    padding-left: 0;
+  }
+}

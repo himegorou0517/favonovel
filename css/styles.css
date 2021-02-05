@@ -1,0 +1,130 @@
+body {
+  /* background-image: url(../image/top3.jpg); */
+  /* background-image: url(../image/top.jpg); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  color: #330000;
+  font-family:'戸越ゴシック';
+}
+
+html {
+  height: 100%;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  height: 50px;
+}
+
+header {
+  margin: 40px auto;
+}
+
+#wrapper {
+  padding: 20px auto;
+}
+
+.login {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+video {
+  width: 500px;
+  height: 500px;
+}
+
+.right {
+  background-color: #eee7e0;
+  width: 550px;
+}
+
+a.res {
+  text-decoration: none;
+  color: #330000;
+  background: linear-gradient(transparent 70%,#c1e4e9 70%);
+}
+
+p.index {
+  text-align: center;
+  font-size: 22px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  margin: 30px auto;
+  font-size: 24px;
+}
+
+tr {
+  height: 45px;
+}
+
+th {
+  font-size: 18px;
+}
+
+span {
+  color: #CC3300;
+}
+
+p.forget {
+  text-align: center;
+  font-size: 19px;
+  margin: 50px auto;
+}
+
+p.first {
+  text-align: center;
+  font-size: 19px;
+  margin: 40px auto;
+}
+
+.first a {
+  color: #330000;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+  }
+  #wrapper {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  p.index {
+    padding: 20px 0;
+  }
+  .login {
+    width: 100%;
+    display: block;
+  }
+  .left {
+    width: 100%;
+  }
+  video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .right {
+    width: 100%;
+  }
+  p.first {
+    padding-bottom: 20px;
+  }
+
+
+}

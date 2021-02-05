@@ -1,0 +1,113 @@
+body {
+  background-image: url(../image/bg3.jpg);
+  /* background-color: #f3f3f2; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #330000;
+  font-family:'戸越ゴシック';
+}
+
+html {
+  height: 100%;
+}
+
+header {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#menu {
+  width: 100%;
+}
+
+#menu img {
+  width: 170px;
+  height: 170px;
+  float: left;
+}
+
+#navi {
+  display: flex;
+  float: right;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+}
+
+#navi li {
+  list-style: none;
+  margin: 0 15px;
+  width: 128px;
+  padding: 50px 0;
+  text-align: center;
+  text-shadow: 1px 1px 2px #888888;
+}
+
+ul#navi a {
+  color: #330000;
+  text-decoration: none;
+}
+
+li:nth-child(1) {
+  background-image: url(../image/header3.png);
+  background-size: cover;
+}
+
+li:nth-child(2) {
+  background-image: url(../image/header1.png);
+  background-size: cover;
+}
+
+li:nth-child(3) {
+  background-image: url(../image/header2.png);
+  background-size: cover;
+}
+
+#wrapper {
+  width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+footer {
+  border-top: dashed 2px #330000;
+  height: 25px;
+  width: 100%;
+  /* position: absolute;
+  bottom: 0; */
+}
+
+footer p {
+  text-align: center;
+  margin: 7px auto;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+  }
+  #wrapper {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  #menu {
+    width: 100%;
+    /* display: block; */
+  }
+  #menu img {
+    width: 125px;
+    height: 125px;
+  }
+  ul#navi {
+    width: 100%;
+  }
+
+}

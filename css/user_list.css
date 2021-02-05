@@ -1,0 +1,107 @@
+/* user_list.php */
+
+h1 {
+  font-size: 28px;
+  padding-left: 100px;
+}
+
+p.index {
+  font-size: 25px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.user {
+  width: calc(100% / 2);
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  height: 60px;
+}
+
+th:nth-child(1){
+  width: 100px;
+}
+
+th:nth-child(2){
+  width: 200px;
+}
+
+th:nth-child(3){
+  width: 200px;
+}
+
+td {
+  text-align: center;
+  border-top: dashed 2px #330000;
+}
+
+td:nth-child(1){
+  width: 100px;
+}
+
+td:nth-child(2){
+  width: 200px;
+}
+
+td:nth-child(3){
+  width: 200px;
+}
+
+.user td a {
+  color: #d0576b;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  p.index {
+    padding: 20px 0;
+  }
+  .list {
+    width: 100%;
+  }
+  .user {
+    width: 100%;
+    background-color: transparent;
+  }
+  table {
+    width: 100%;
+  }
+  tbody {
+    width: 100%;
+  }
+  tr {
+    width: 100%;
+    margin: 10px 0;
+  }
+  th {
+    width: 100%;
+    margin: 0 auto;
+    display:block;
+    height: 25px;
+
+  }
+  td {
+    width: 100%;
+    height: 25px;
+    margin: 0 auto;
+    display:block;
+    border-top: none;
+  }
+   a {
+    width: 100%;
+    margin: 0 auto;
+    display:block;
+  }
